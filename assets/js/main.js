@@ -28,7 +28,7 @@ function displayBandgifs() {
     gifURL.attr("data-animate",results[i].images.fixed_height_small.url); // animated image
     gifURL.attr("data-state", "still"); // set the image state
     gifURL.addClass("image");
-    bandDiv.append(gifURL);
+    bandDiv.prepend(gifURL);
     // pulling still image of gif
     // adding div of gifs to gifsView div
     $("#gifs-view").prepend(bandDiv);

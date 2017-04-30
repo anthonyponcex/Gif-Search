@@ -10,6 +10,11 @@ body {
 	color:white;
 	margin-bottom:15px;
 	font-family: 'Roboto', sans-serif;
+	padding:10px;
+}
+
+img {
+	width:600px;
 }
 
 footer {
