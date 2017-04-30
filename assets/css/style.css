@@ -1,0 +1,47 @@
+body {
+	background-image: url(https://images.8tracks.com/cover/i/000/504/647/skulls_2-2476.jpg);
+	background-attachment: fixed;
+}
+
+.container {
+	width: 60%;
+	text-align:center;
+	background-color:gray;
+	color:white;
+	margin-bottom:15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+footer {
+	text-align:center;
+	margin-bottom:15px;
+	font-family: 'Roboto', sans-serif;
+	color:hotpink;
+}
+
+h1 {
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:100px;
+	font-family: 'Anton', sans-serif;
+
+}
+
+h1 a {
+	color:white;
+}
+h1 a:hover {
+	text-decoration: none;
+	color:hotpink;
+}
+
+h2 {
+	font-size:40px;
+	font-weight:bold;
+	font-family: 'Lobster Two', cursive;
+}
+
+button, #addBand {
+	background-color:black;
+}
